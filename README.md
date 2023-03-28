@@ -1,21 +1,36 @@
 # researchmethods2023
-Project Outline:
 
-General Information
-This project aims to investigate whether the use of correct capitalisation in Twitter messages has decreased over the past decade due to an increase in informal communication styles among Twitter users.
+## Abstract
+This research paper investigates whether
+the use of correct capitalisation and punc-
+tuation on Twitter has increased over the
+past decade due to the growth of infor-
+mal communication styles among Twit-
+ter users. The study uses a dataset of
+6,383,732 Dutch tweets extracted from the
+twitter2 corpus and employs a regex pat-
+tern matching technique to analyze the
+data. The results suggest that there has
+been a stark increase in the use of correct
+capitalisation and punctuation in Twitter
+messages over the past decade, likely due
+to improved writing skills, increased use
+of automated tools, and a greater emphasis
+on the importance of proper grammar and
+punctuation. The findings have implica-
+tions for language use and grammar skills
+among Twitter users, as well as for social
+media marketing
 
-Background Information
-Previous studies have suggested that social media has had a significant impact on language use and grammar skills among users. For example, studies by Danet (2001) and Crystal (2006) have found that social media platforms such as Twitter have led to the development of new communication styles that are more informal and abbreviated than traditional written language.
+# Connect to korora
+ogin to Karora by using the following command, where s1234567 is of course your own student number:
 
-Research Question and Hypotheses
-Research Question: Does the use of correct capitalisation in Twitter messages decrease over the past decade due to an increase in informal communication styles among Twitter users?
+ssh s1234567@karora.let.rug.nl
 
-Hypothesis: We hypothesize that the use of correct capitalisation in Twitter messages has decreased over the past decade due to an increase in informal communication styles among Twitter users.
+If this is your first time logging in to Karora, you will be asked to trust the fingerprint: type yes.
 
-Method
-To investigate our research question and test our hypothesis, we will conduct a quantitative analysis of a dataset of Twitter messages. We will use a random sampling method to ensure that our dataset is representative of Twitter users. We will analyze the frequency of correct capitalization in Twitter messages over the past decade and examine any trends or patterns in its use.
+Next, simply fill in your general UG password. 
 
-References
-Danet, B. (2001). Cyberpl@y: Communicating online. Berg Publishers.
+Should you still have trouble logging in (Permission denied / Connection closed), you may send a mail to lwp@rug.nl. 
 
-Crystal, D. (2006). Language and the internet. Cambridge University Press.
+Then Upload the .sh file, run `chmod +x extract_tweets.sh`, and then `./extract_tweets.sh`.
