@@ -22,7 +22,7 @@ tions for language use and grammar skills
 among Twitter users, as well as for social
 media marketing
 
-# Connect to korora
+## Connect to korora
 Login to Karora by using the following command, where s1234567 is of course your own student number:
 
 ssh s1234567@karora.let.rug.nl
@@ -34,3 +34,6 @@ Next, simply fill in your general UG password.
 Should you still have trouble logging in (Permission denied / Connection closed), you may send a mail to lwp@rug.nl. 
 
 Then Upload the .sh file, run `chmod +x extract_tweets.sh`, and then `./extract_tweets.sh`.
+
+## Once you have the data
+Run the jupyter notebook, make sure you have all the required libraries, make sure the foldername is the same, and then restart and run all.
