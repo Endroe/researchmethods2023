@@ -23,7 +23,7 @@ among Twitter users, as well as for social
 media marketing
 
 # Connect to korora
-ogin to Karora by using the following command, where s1234567 is of course your own student number:
+Login to Karora by using the following command, where s1234567 is of course your own student number:
 
 ssh s1234567@karora.let.rug.nl
 
